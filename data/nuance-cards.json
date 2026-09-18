@@ -1,0 +1,35 @@
+[
+  {
+    "id": "le-vs-guo-01",
+    "level": "advanced",
+    "tag": "Past experience",
+    "sentenceA": "我去过北京。",
+    "sentenceB": "我去了北京。",
+    "question": "Which sentence emphasizes having had the experience of visiting Beijing?",
+    "choices": ["Sentence A", "Sentence B", "Both mean exactly the same thing", "Neither refers to the past"],
+    "answerIndex": 0,
+    "explanation": "`过` marks previous experience. `了` presents a completed trip or event."
+  },
+  {
+    "id": "cai-vs-jiu-01",
+    "level": "expert",
+    "tag": "Expectation",
+    "sentenceA": "他九点就到了。",
+    "sentenceB": "他九点才到。",
+    "question": "How does each sentence frame arriving at nine o'clock?",
+    "choices": ["A is earlier than expected; B is later than expected", "A is later than expected; B is earlier than expected", "Both say exactly nine o'clock with no implication", "A is a future plan; B is a past event"],
+    "answerIndex": 0,
+    "explanation": "`就` often highlights an earlier-than-expected result; `才` often highlights a later-than-expected one."
+  },
+  {
+    "id": "hui-vs-keyi-01",
+    "level": "core",
+    "tag": "Ability and permission",
+    "sentenceA": "我会开车。",
+    "sentenceB": "我可以开车。",
+    "question": "Which sentence most directly says the speaker has learned the skill of driving?",
+    "choices": ["Sentence A", "Sentence B", "Both only express permission", "Neither concerns driving"],
+    "answerIndex": 0,
+    "explanation": "`会` commonly describes a learned ability. `可以` commonly means something is permitted or possible in the circumstances."
+  }
+]
