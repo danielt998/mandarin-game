@@ -1,35 +1,946 @@
 [
   {
-    "id": "le-vs-guo-01",
+    "id": "past-experience-le-vs-guo",
     "level": "advanced",
-    "tag": "Past experience",
-    "sentenceA": "我去过北京。",
-    "sentenceB": "我去了北京。",
-    "question": "Which sentence emphasizes having had the experience of visiting Beijing?",
-    "choices": ["Sentence A", "Sentence B", "Both mean exactly the same thing", "Neither refers to the past"],
+    "tag": "Past experience: 了 vs 过",
+    "sentenceA": "我昨天去了上海。",
+    "sentenceB": "我去过上海。",
+    "question": "Which sentence presents the trip as a completed event at a specific past time rather than as prior experience?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both sentences equally emphasize prior experience",
+      "Neither sentence refers to a past trip"
+    ],
     "answerIndex": 0,
-    "explanation": "`过` marks previous experience. `了` presents a completed trip or event."
+    "explanation": "Sentence A uses 了 with the specific time phrase 昨天 to present a particular trip as a completed event. Sentence B uses 过 to indicate that the speaker has had the experience of going to Shanghai, without focusing on when or on one particular occasion."
   },
   {
-    "id": "cai-vs-jiu-01",
+    "id": "expectation-cai-vs-jiu",
     "level": "expert",
-    "tag": "Expectation",
-    "sentenceA": "他九点就到了。",
-    "sentenceB": "他九点才到。",
-    "question": "How does each sentence frame arriving at nine o'clock?",
-    "choices": ["A is earlier than expected; B is later than expected", "A is later than expected; B is earlier than expected", "Both say exactly nine o'clock with no implication", "A is a future plan; B is a past event"],
+    "tag": "Expectation: 才 vs 就",
+    "sentenceA": "大家原以为他下午三点前到，结果他下午三点才到。",
+    "sentenceB": "大家原以为他下午五点后到，结果他下午三点就到。",
+    "question": "What timing contrast do 才 and 就 convey in these sentences?",
+    "choices": [
+      "A is later than expected, while B is earlier than expected.",
+      "A is earlier than expected, while B is later than expected.",
+      "Both arrivals are earlier than expected.",
+      "Both arrivals are later than expected."
+    ],
     "answerIndex": 0,
-    "explanation": "`就` often highlights an earlier-than-expected result; `才` often highlights a later-than-expected one."
+    "explanation": "In this timing context, 才 presents an event as happening only at that point, later than the relevant expectation; 就 presents it as happening already by that point, earlier than expected. These are common pragmatic tendencies, with the exact comparison supplied by context."
   },
   {
-    "id": "hui-vs-keyi-01",
+    "id": "hui-vs-keyi-ability-permission",
     "level": "core",
-    "tag": "Ability and permission",
-    "sentenceA": "我会开车。",
-    "sentenceB": "我可以开车。",
-    "question": "Which sentence most directly says the speaker has learned the skill of driving?",
-    "choices": ["Sentence A", "Sentence B", "Both only express permission", "Neither concerns driving"],
+    "tag": "Ability vs permission",
+    "sentenceA": "我会开车，但今天不可以开。",
+    "sentenceB": "我会开车，但今天可以开。",
+    "question": "What contrast do the two sentences make?",
+    "choices": [
+      "会开车 expresses driving ability, while 可以 or 不可以开 concerns whether driving is permitted or possible today.",
+      "会开车 expresses permission, while 可以开 expresses learned driving ability.",
+      "会开车 means the speaker is driving now, while 可以开 means the speaker drove yesterday.",
+      "会开车 and 可以开 both express exactly the same kind of ability."
+    ],
     "answerIndex": 0,
-    "explanation": "`会` commonly describes a learned ability. `可以` commonly means something is permitted or possible in the circumstances."
+    "explanation": "Here, 会开车 normally indicates a learned skill or ability. 可以开 and 不可以开 indicate that driving is or is not allowed or feasible today; the exact reason is not stated."
+  },
+  {
+    "id": "duration-yizhi-vs-zongshi",
+    "level": "advanced",
+    "tag": "continuous vs habitual duration",
+    "sentenceA": "他整个下午一直在窗边看书。",
+    "sentenceB": "他每次来这里总是在窗边看书。",
+    "question": "Which sentence describes an activity continuing throughout one particular period, rather than a repeated pattern across different occasions?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both sentences equally",
+      "Neither sentence"
+    ],
+    "answerIndex": 0,
+    "explanation": "一直 focuses on an activity continuing over a particular stretch of time, while 总是 commonly describes a recurring habit or tendency across occasions. These are typical tendencies, and context can sometimes allow some overlap."
+  },
+  {
+    "id": "kan-vs-kandong-completion",
+    "level": "core",
+    "tag": "Result complement: 看懂 vs 看",
+    "sentenceA": "我看了这份说明。",
+    "sentenceB": "我看懂了这份说明。",
+    "question": "Which sentence explicitly indicates that the speaker successfully understood the written instructions?",
+    "choices": [
+      "Sentence A only",
+      "Sentence B only",
+      "Both sentences equally",
+      "Neither sentence"
+    ],
+    "answerIndex": 1,
+    "explanation": "看了 reports that the speaker read or looked at the instructions, but it does not by itself establish comprehension. 看懂了 uses the result complement 懂 to indicate that the speaker understood them."
+  },
+  {
+    "id": "faner-vs-que-unexpected-reversal",
+    "level": "expert",
+    "tag": "Unexpected reversal vs contrast",
+    "sentenceA": "他本想用这个办法省时间，反而耽误了更多时间。",
+    "sentenceB": "他本想用这个办法省时间，却耽误了更多时间。",
+    "question": "Which sentence more explicitly presents the result as the opposite of the intended direction?",
+    "choices": [
+      "Sentence A, because 反而 foregrounds the reversal",
+      "Sentence B, because 却 always marks a stronger reversal",
+      "Both equally, because the two words are interchangeable in every context",
+      "Neither, because neither word can contrast intention with result"
+    ],
+    "answerIndex": 0,
+    "explanation": "反而 tends to emphasize an unexpected reversal: an attempt to save time led to losing more time. 却 marks a contrast between the intention and the result and can also occur in such contexts, but it is not as specifically focused on reversal; it is also common in ordinary contrasts."
+  },
+  {
+    "id": "reported-discovery-yuanlai-jingran",
+    "level": "expert",
+    "tag": "Reported discovery and surprise",
+    "sentenceA": "我查了记录，原来这份报告是昨天发出的。",
+    "sentenceB": "我查了记录，这份报告竟然是昨天发出的。",
+    "question": "What does sentence B most strongly convey about the speaker’s attitude toward the report’s date?",
+    "choices": [
+      "The speaker has just learned the date, without necessarily expressing surprise.",
+      "The speaker finds the date unexpectedly early or otherwise surprising.",
+      "The speaker doubts that the report was sent at all.",
+      "The speaker is explaining who sent the report."
+    ],
+    "answerIndex": 1,
+    "explanation": "原来 commonly marks a newly realized or previously unknown fact—“it turns out”—without inherently expressing strong emotion. 竟然 presents the fact as contrary to expectation and typically conveys surprise or disbelief. Here, sentence B therefore foregrounds the unexpectedness of the report’s date."
+  },
+  {
+    "id": "renwei-vs-jue-de-formal-opinion",
+    "level": "advanced",
+    "tag": "formal opinion vs personal impression",
+    "sentenceA": "综合分析了三个月的数据后，我认为这项改革值得继续推进。",
+    "sentenceB": "看到目前的效果，我觉得这项改革值得继续推进。",
+    "question": "Which sentence more explicitly presents a reasoned conclusion based on an analysis of evidence?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both equally emphasize personal feeling",
+      "Neither expresses an opinion"
+    ],
+    "answerIndex": 0,
+    "explanation": "认为 often presents a considered, relatively formal judgment, especially when supported by analysis or evidence. 觉得 is more conversational and commonly conveys a speaker’s personal impression or feeling, although the two verbs can overlap in many contexts."
+  },
+  {
+    "id": "zhidao-vs-liaojie-company-familiarity",
+    "level": "advanced",
+    "tag": "Knowing facts vs familiarity",
+    "sentenceA": "我知道这家公司，但不太了解它的经营情况。",
+    "sentenceB": "我了解这家公司，但不知道它的经营情况。",
+    "question": "Which sentence says that the speaker is familiar with the company but does not know its business situation?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both sentences",
+      "Neither sentence"
+    ],
+    "answerIndex": 1,
+    "explanation": "In this context, 知道这家公司 mainly indicates awareness of the company, whereas 了解这家公司 suggests a degree of familiarity with it. Sentence B therefore conveys familiarity with the company while explicitly denying knowledge of its business situation; this is a contextual tendency, not an absolute rule."
+  },
+  {
+    "id": "causation-yinwei-vs-youyu",
+    "level": "core",
+    "tag": "Causation: 因为 vs 由于",
+    "sentenceA": "因为下大雨，比赛临时取消了。",
+    "sentenceB": "由于下大雨，比赛临时取消了。",
+    "question": "Which sentence has a more formal, written tone for expressing the cause?",
+    "choices": [
+      "Sentence A, because 因为 is more formal",
+      "Sentence B, because 由于 is more formal",
+      "Both are equally conversational",
+      "Neither sentence expresses a cause"
+    ],
+    "answerIndex": 1,
+    "explanation": "因为 commonly expresses an ordinary cause in conversation, while 由于 tends to sound more formal or written. This is a tendency rather than an absolute rule; both can appear in speech and writing."
+  },
+  {
+    "id": "yao-vs-hui-future-intention",
+    "level": "core",
+    "tag": "Future intention vs prediction",
+    "sentenceA": "今晚我要早点睡。",
+    "sentenceB": "今晚我会早点睡。",
+    "question": "Which sentence more directly presents going to bed early as the speaker’s intention or decision?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both sentences equally clearly express a past habit",
+      "Neither sentence refers to the future"
+    ],
+    "answerIndex": 0,
+    "explanation": "要 in Sentence A commonly marks a plan, intention, or sometimes an obligation, so the speaker presents going to bed early as a decision or intention. 会 in Sentence B more typically presents it as a prediction or expectation, although context can also make 会 express a firm intention or commitment."
+  },
+  {
+    "id": "bi-vs-geng-direct-comparison",
+    "level": "core",
+    "tag": "比 vs 更",
+    "sentenceA": "今天比昨天冷。",
+    "sentenceB": "今天更冷。",
+    "question": "Which sentence explicitly identifies yesterday as the comparison standard?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both sentences",
+      "Neither sentence"
+    ],
+    "answerIndex": 0,
+    "explanation": "比 introduces an explicit comparison standard, so sentence A directly compares today with yesterday. 更 intensifies the quality and often implies a contextually understood standard, but sentence B does not state what today is colder than."
+  },
+  {
+    "id": "bu-vs-mei-negation",
+    "level": "core",
+    "tag": "Negation: 不 vs 没",
+    "sentenceA": "我不吃早餐。",
+    "sentenceB": "我没吃早餐。",
+    "question": "Which sentence says that the speaker did not eat breakfast on a particular occasion?",
+    "choices": [
+      "Sentence A; it describes a general habit.",
+      "Sentence B; it negates an eating event that did not occur.",
+      "Both; they have exactly the same meaning.",
+      "Neither; both describe a future plan."
+    ],
+    "answerIndex": 1,
+    "explanation": "不 commonly negates a general habit, preference, or planned action, while 没 commonly negates an action that did not happen or a state that was not reached. Thus 我不吃早餐 usually means “I do not eat breakfast” as a habit, whereas 我没吃早餐 means “I did not eat breakfast” on a particular occasion."
+  },
+  {
+    "id": "existence-vs-location",
+    "level": "core",
+    "tag": "Existence vs location",
+    "sentenceA": "桌上有一本词典。",
+    "sentenceB": "这本词典在桌上。",
+    "question": "Which sentence primarily presents a dictionary as existing on the table rather than locating an already identified dictionary?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both sentences equally",
+      "Neither sentence"
+    ],
+    "answerIndex": 0,
+    "explanation": "有 commonly introduces or asserts the existence of something at a place, as in sentence A. 在 commonly locates an identified thing, as in sentence B. This is a strong tendency rather than an exceptionless rule."
+  },
+  {
+    "id": "sequence-zai-vs-you",
+    "level": "core",
+    "tag": "Sequence: 再 vs 又",
+    "sentenceA": "他明天再来。",
+    "sentenceB": "他昨天又来了。",
+    "question": "Which sentence describes a repeated action that is planned or expected to happen in the future?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both sentences",
+      "Neither sentence"
+    ],
+    "answerIndex": 0,
+    "explanation": "再 commonly marks a repeated action that will happen later, as in 明天再来. 又 commonly marks an action that has happened again or is recurring, as in 昨天又来了; it is not limited exclusively to past contexts."
+  },
+  {
+    "id": "ji-vs-duoshao-quantity",
+    "level": "core",
+    "tag": "Small number vs open quantity",
+    "sentenceA": "你要几本书？",
+    "sentenceB": "你要多少本书？",
+    "question": "What tendency distinguishes sentence A from sentence B?",
+    "choices": [
+      "A tends to anticipate a relatively small number, while B leaves the quantity more open.",
+      "A asks about the books’ prices, while B asks about their quantity.",
+      "A must refer to exactly three books, while B must refer to exactly ten.",
+      "A is a command to bring books, while B is a question about ownership."
+    ],
+    "answerIndex": 0,
+    "explanation": "几 commonly suggests a relatively small or limited number, often with the expectation that the answer will be a small numeral. 多少 asks how many or how much more openly, without the same small-number tendency. Context can affect both expressions."
+  },
+  {
+    "id": "invitation-yiqi-vs-yikuaier",
+    "level": "core",
+    "tag": "Invitation: 一起 vs 一块儿",
+    "sentenceA": "周末我们一起去看电影吧。",
+    "sentenceB": "周末我们一块儿去看电影吧。",
+    "question": "Which sentence uses the more colloquial expression for going together?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both are equally formal",
+      "Neither expresses going together"
+    ],
+    "answerIndex": 1,
+    "explanation": "一块儿 is generally more colloquial and conversational than the relatively neutral 一起. In this invitation, both naturally mean “go together,” but 一起 has a wider range of uses and is not always interchangeable with 一块儿."
+  },
+  {
+    "id": "change-of-state-le-vs-qilai",
+    "level": "advanced",
+    "tag": "Change of state: 了 vs 起来",
+    "sentenceA": "天气冷了。",
+    "sentenceB": "天气冷起来了。",
+    "question": "What nuance does sentence B add compared with sentence A?",
+    "choices": [
+      "It emphasizes that the weather has begun to turn cold.",
+      "It states that the weather is definitely colder than yesterday.",
+      "It indicates that the weather will soon become warm.",
+      "It describes someone actively making the weather cold."
+    ],
+    "answerIndex": 0,
+    "explanation": "冷了 presents coldness as a newly established or newly relevant state. 冷起来了 highlights the onset or development of the change—the weather has started becoming cold—without necessarily implying that the process is complete."
+  },
+  {
+    "id": "shi-de-time-versus-place",
+    "level": "advanced",
+    "tag": "Emphasis: 是……的",
+    "sentenceA": "我是昨天借到这本书的。",
+    "sentenceB": "我是在图书馆借到这本书的。",
+    "question": "Which detail does sentence B emphasize about borrowing the book?",
+    "choices": [
+      "The time",
+      "The place",
+      "The manner",
+      "The person"
+    ],
+    "answerIndex": 1,
+    "explanation": "In sentence B, 是……的 frames the completed event while highlighting 在图书馆, the place where it happened. This construction commonly emphasizes a circumstance such as time, place, manner, or participant; it does not necessarily imply that all other details are unknown."
+  },
+  {
+    "id": "ba-object-focus-versus-neutral-action",
+    "level": "advanced",
+    "tag": "Disposal: 把 construction",
+    "sentenceA": "我已经把那份报告发给客户了。",
+    "sentenceB": "我已经给客户发那份报告了。",
+    "question": "Which sentence more strongly foregrounds what happened to the specific report?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both equally foreground it",
+      "Neither mentions a specific report"
+    ],
+    "answerIndex": 0,
+    "explanation": "Sentence A uses 把 to foreground the definite object and frame the action in terms of its disposition—sending it to the client. Sentence B is a more neutral statement about sending the report, although it also identifies that report."
+  },
+  {
+    "id": "bei-affected-subject",
+    "level": "advanced",
+    "tag": "Affected passive",
+    "sentenceA": "那份重要文件被人误删了。",
+    "sentenceB": "有人误删了那份重要文件。",
+    "question": "Which sentence presents the important document as the affected subject and highlights the notable adverse outcome?",
+    "choices": [
+      "Sentence A only",
+      "Sentence B only",
+      "Both sentences equally",
+      "Neither sentence"
+    ],
+    "answerIndex": 0,
+    "explanation": "Sentence A uses 被 to make the document the grammatical subject, foregrounding what happened to it and its adverse result. Sentence B uses an active structure that foregrounds the unspecified person who deleted it. 被 often carries an unwanted or notable-result nuance, although it is not restricted to adverse events."
+  },
+  {
+    "id": "ongoing-action-vs-continuing-state",
+    "level": "advanced",
+    "tag": "Ongoing action vs continuing state",
+    "sentenceA": "他在穿外套，准备马上出门。",
+    "sentenceB": "他穿着外套，准备马上出门。",
+    "question": "Which sentence presents putting on the coat as an action in progress rather than simply describing the state of wearing it?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both sentences equally",
+      "Neither sentence"
+    ],
+    "answerIndex": 0,
+    "explanation": "在 typically highlights an action that is currently unfolding, so 在穿外套 suggests that he is in the process of putting on the coat. 着 typically describes a continuing state resulting from or maintained after an action, so 穿着外套 focuses on his wearing the coat rather than the act of putting it on."
+  },
+  {
+    "id": "chabuduo-vs-dagai-approximation",
+    "level": "advanced",
+    "tag": "near-equality vs estimation",
+    "sentenceA": "这项工程的成本差不多是预算的两倍。",
+    "sentenceB": "这项工程的成本大概是预算的两倍。",
+    "question": "Which sentence more clearly presents “twice the budget” as the speaker’s rough estimate?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both present it as an exact calculation",
+      "Neither refers to the project’s cost"
+    ],
+    "answerIndex": 1,
+    "explanation": "差不多 tends to emphasize that the actual amount is close to the stated figure, whereas 大概 more directly marks the figure as an estimate or approximation. They can overlap in everyday speech, so this is a difference in emphasis rather than an absolute rule."
+  },
+  {
+    "id": "jishi-napa-formal-versus-emphatic-concession",
+    "level": "expert",
+    "tag": "Formal versus emphatic concession",
+    "sentenceA": "即使方案延期，项目也不会取消。",
+    "sentenceB": "哪怕方案延期，项目也不会取消。",
+    "question": "Which sentence more strongly presents the delay as an especially adverse or extreme condition?",
+    "choices": [
+      "Sentence A, because 即使 marks a neutral hypothetical condition",
+      "Sentence B, because 哪怕 adds emphatic concessive force",
+      "Sentence A, because 即使 always implies the condition is unlikely",
+      "Sentence B, because 哪怕 means the project will probably be canceled"
+    ],
+    "answerIndex": 1,
+    "explanation": "即使 commonly introduces a relatively neutral or formal hypothetical concession: “even if the plan is delayed.” 哪怕 can express the same basic condition but often adds emphasis, presenting the condition as particularly adverse, difficult, or extreme from the speaker’s perspective. This is a tendency rather than an absolute rule, and the two forms overlap in many contexts."
+  },
+  {
+    "id": "unexpectedness-juran-vs-jingran",
+    "level": "expert",
+    "tag": "Unexpectedness: 居然 vs 竟然",
+    "sentenceA": "这么复杂的合同，她居然一遍就看懂了。",
+    "sentenceB": "这么复杂的合同，她竟然一遍就看懂了。",
+    "question": "Compared with sentence A, what nuance does sentence B most conventionally suggest?",
+    "choices": [
+      "The result is expected rather than surprising.",
+      "The surprise may sound somewhat stronger or more formal in tone.",
+      "The speaker doubts whether she understood the contract at all.",
+      "The result happened repeatedly instead of only once."
+    ],
+    "answerIndex": 1,
+    "explanation": "居然 and 竟然 overlap substantially and can both mark an unexpected result. In many contexts, 居然 sounds more conversational, while 竟然 can present the surprise as somewhat stronger or more written or formal; this is a tendency rather than an absolute rule."
+  },
+  {
+    "id": "zhishi-vs-buguo-qualification-contrast",
+    "level": "expert",
+    "tag": "qualification vs mild contrast",
+    "sentenceA": "他答应参加，只是时间还没定。",
+    "sentenceB": "他答应参加，不过时间还没定。",
+    "question": "Which sentence more clearly presents the uncertain timing as a qualification or reservation about the agreement?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both equally clearly present it as a firm refusal",
+      "Neither sentence mentions the timing"
+    ],
+    "answerIndex": 0,
+    "explanation": "只是 commonly introduces a limiting qualification, roughly “it’s just that,” while 不过 can introduce a mild contrast or transition, roughly “however.” This is a tendency rather than an absolute rule, since 不过 can also soften or qualify a preceding statement in context."
+  },
+  {
+    "id": "speaker-stance-nanguai-vs-guaibude",
+    "level": "expert",
+    "tag": "No wonder: register and stance",
+    "sentenceA": "难怪他今天一直打哈欠，昨晚赶报告赶到凌晨三点。",
+    "sentenceB": "怪不得他今天一直打哈欠，昨晚赶报告赶到凌晨三点。",
+    "question": "What is the most accurate distinction between these two sentences?",
+    "choices": [
+      "Sentence A is somewhat more neutral or written, while Sentence B is more conversational; both express that the result now makes sense.",
+      "Sentence A expresses doubt, while Sentence B expresses certainty.",
+      "Sentence A refers to a past result, while Sentence B refers to a present result.",
+      "Sentence A blames him for staying up, while Sentence B merely describes what happened."
+    ],
+    "answerIndex": 0,
+    "explanation": "难怪 and 怪不得 commonly both mean “no wonder” and signal that the stated cause makes the result understandable. 难怪 can sound slightly more neutral or written, whereas 怪不得 is often more colloquial and conversational; the contrast is a tendency, not an absolute rule."
+  },
+  {
+    "id": "zhiyu-vs-guanyu-topic-shift",
+    "level": "expert",
+    "tag": "Discourse: 至于 vs 关于",
+    "sentenceA": "至于员工福利，我们改天再单独讨论。",
+    "sentenceB": "关于员工福利，我们改天再详细讨论。",
+    "question": "Which sentence more explicitly treats employee benefits as a separate topic from the current discussion?",
+    "choices": [
+      "Sentence A, because 至于 often marks a shift to an additional or separate topic",
+      "Sentence B, because 关于 always indicates a topic change",
+      "Both equally, because 至于 and 关于 are interchangeable here",
+      "Neither, because neither sentence identifies a topic"
+    ],
+    "answerIndex": 0,
+    "explanation": "至于 commonly signals an “as for...” shift, often presenting a separate matter or one being deferred. 关于 introduces the subject under discussion more neutrally; it does not itself strongly imply a discourse shift, even though the sentence can still refer to a later discussion."
+  },
+  {
+    "id": "scope-du-vs-ye-under-negation",
+    "level": "expert",
+    "tag": "Scope of 都 vs 也",
+    "sentenceA": "这些建议我都没采纳。",
+    "sentenceB": "这些建议我也没采纳。",
+    "question": "What does 都 assert in sentence A that 也 does not assert in sentence B?",
+    "choices": [
+      "None of the suggestions in the set were adopted.",
+      "All of the suggestions were adopted.",
+      "The speaker adopted the suggestions in addition to something else.",
+      "The speaker compared the suggestions with another set."
+    ],
+    "answerIndex": 0,
+    "explanation": "都 gives sentence A a distributive reading: each suggestion in the relevant set was not adopted, so the set as a whole was rejected. In 也没采纳, 也 marks addition or similarity under negation—roughly, “did not adopt these suggestions either”—but does not by itself assert that every suggestion in the set was rejected."
+  },
+  {
+    "id": "na-vs-nali-location-questions",
+    "level": "core",
+    "tag": "specific vs general location",
+    "sentenceA": "你想去哪家餐厅？",
+    "sentenceB": "你想去哪里吃饭？",
+    "question": "Which sentence specifically asks the listener to choose a restaurant?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both sentences equally specify a restaurant",
+      "Neither sentence asks about a destination"
+    ],
+    "answerIndex": 0,
+    "explanation": "哪家餐厅 asks which restaurant by combining 哪 with the classifier 家 and the noun 餐厅. 哪里 asks more generally where the listener wants to go to eat, without identifying a particular type of destination."
+  },
+  {
+    "id": "small-amount-yidianr-vs-youdianr",
+    "level": "core",
+    "tag": "Small amount versus slight degree",
+    "sentenceA": "我只喝了一点儿咖啡。",
+    "sentenceB": "这杯咖啡有点儿苦。",
+    "question": "Which sentence describes a small quantity rather than a slight degree?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both sentences",
+      "Neither sentence"
+    ],
+    "answerIndex": 0,
+    "explanation": "一点儿 usually indicates a small quantity, as in a little coffee. 有点儿 usually indicates a slight degree, often with an undesirable quality, as in somewhat bitter."
+  },
+  {
+    "id": "zhengzai-vs-zai-progressive",
+    "level": "core",
+    "tag": "Progressive action",
+    "sentenceA": "他正在写报告，暂时不能接电话。",
+    "sentenceB": "他在写报告，暂时不能接电话。",
+    "question": "Which sentence more explicitly emphasizes that the report-writing is in progress right now?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both are equally emphatic in every context",
+      "Neither describes an ongoing action"
+    ],
+    "answerIndex": 0,
+    "explanation": "正在 typically makes the ongoing nature of an action more explicit, while 在 is a more neutral progressive marker. In this context, both sentences naturally mean that he is writing the report now."
+  },
+  {
+    "id": "haishi-huozhe-choice-context",
+    "level": "core",
+    "tag": "Choice: 还是 vs 或者",
+    "sentenceA": "你想喝茶还是咖啡？",
+    "sentenceB": "你可以喝茶或者咖啡。",
+    "question": "Which sentence directly asks the listener to choose between tea and coffee?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both sentences",
+      "Neither sentence"
+    ],
+    "answerIndex": 0,
+    "explanation": "还是 typically presents alternatives in a direct question, as in sentence A. 或者 commonly presents alternatives in a statement, suggestion, or command, as in sentence B; this is a strong tendency rather than an exceptionless rule."
+  },
+  {
+    "id": "xiang-vs-yao-strength-of-intention",
+    "level": "core",
+    "tag": "Strength of intention: 想 vs 要",
+    "sentenceA": "我想明天去北京。",
+    "sentenceB": "我明天要去北京。",
+    "question": "Which sentence more strongly presents going to Beijing as a definite intention?",
+    "choices": [
+      "Sentence A, because 想 usually expresses a wish or less definite plan",
+      "Sentence B, because 要 often expresses a firmer intention or expected action",
+      "Both, because 想 and 要 always have exactly the same force",
+      "Neither, because neither sentence expresses a future plan"
+    ],
+    "answerIndex": 1,
+    "explanation": "想 commonly presents a desire or tentative plan, whereas 要 can present a firmer intention or an expected future action. In isolation, the exact force depends on context, and 要 is not invariably stronger than 想."
+  },
+  {
+    "id": "sequence-xian-vs-zai",
+    "level": "core",
+    "tag": "First vs then",
+    "sentenceA": "你先完成作业，再看电视。",
+    "sentenceB": "你先看电视，再完成作业。",
+    "question": "In sentence A, what happens before watching television?",
+    "choices": [
+      "Completing homework",
+      "Going to school",
+      "Eating dinner",
+      "Cleaning the room"
+    ],
+    "answerIndex": 0,
+    "explanation": "先 marks the action that occurs earlier in the sequence, while 再 marks the action that follows. Thus, sentence A places completing homework before watching television; sentence B reverses the order."
+  },
+  {
+    "id": "cong-vs-li-distance",
+    "level": "core",
+    "tag": "Distance: 从 vs 离",
+    "sentenceA": "从北京到上海，坐高铁大约需要五个小时。",
+    "sentenceB": "上海离北京大约一千公里。",
+    "question": "Which sentence presents Beijing as the starting point of a trip?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both sentences",
+      "Neither sentence"
+    ],
+    "answerIndex": 0,
+    "explanation": "在“从北京到上海”中，从北京 indicates that Beijing is the starting point of the route. In “上海离北京……”, 离 links two places and describes the distance between them."
+  },
+  {
+    "id": "liang-vs-er-quantity-and-number",
+    "level": "core",
+    "tag": "Two: quantity vs numeral",
+    "sentenceA": "她买了两本词典。",
+    "sentenceB": "她住在二号楼。",
+    "question": "Which description correctly explains the use of 两 and 二 in these sentences?",
+    "choices": [
+      "两 expresses a quantity before a classifier, while 二 appears in an identifying number.",
+      "两 is used for building numbers, while 二 expresses a quantity before a classifier.",
+      "Both 两 and 二 are equally usual before classifiers in ordinary speech.",
+      "两 is used only for approximate quantities, while 二 is used only for exact quantities."
+    ],
+    "answerIndex": 0,
+    "explanation": "两 is the usual spoken form before a classifier when stating a quantity, as in 两本. 二 is commonly retained in numbers, sequences, and labels such as 二号楼. Usage can vary in some fixed expressions and regional speech."
+  },
+  {
+    "id": "after-vs-when",
+    "level": "core",
+    "tag": "after vs when",
+    "sentenceA": "毕业以后，他去了上海。",
+    "sentenceB": "毕业的时候，他去了上海。",
+    "question": "Which sentence says that he went to Shanghai after graduating, rather than around the time of graduation?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both sentences",
+      "Neither sentence"
+    ],
+    "answerIndex": 0,
+    "explanation": "以后 places the action after the stated event, while 的时候 refers to the time when the event occurs. Thus, sentence A presents going to Shanghai as happening after graduation; sentence B presents it as happening when, or around the time, he graduated."
+  },
+  {
+    "id": "you-vs-shi-existence-identification",
+    "level": "core",
+    "tag": "Common error: 有 vs 是",
+    "sentenceA": "门口有一辆出租车。",
+    "sentenceB": "门口的是一辆出租车。",
+    "question": "Which sentence primarily tells the listener that a taxi is present at the entrance, rather than identifying an already noticed vehicle?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both sentences equally",
+      "Neither sentence"
+    ],
+    "answerIndex": 0,
+    "explanation": "有 presents or locates something as existing in a place, while 是 identifies or classifies a salient thing. Thus, Sentence A introduces a taxi at the entrance; Sentence B identifies what is at the entrance as a taxi."
+  },
+  {
+    "id": "lian-dou-extreme-case-vs-quantity",
+    "level": "advanced",
+    "tag": "Emphatic inclusion vs quantity",
+    "sentenceA": "他连五道最简单的题都没做完。",
+    "sentenceB": "他没做完五道最简单的题。",
+    "question": "Which sentence explicitly frames completing five easy questions as a surprisingly low benchmark that he still failed to meet?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both equally",
+      "Neither sentence"
+    ],
+    "answerIndex": 0,
+    "explanation": "连……都…… commonly highlights an extreme or least-expected case, so Sentence A emphasizes that he could not even finish five of the easiest questions. Sentence B primarily states a quantity-related fact and does not itself mark that benchmark as surprising."
+  },
+  {
+    "id": "simultaneous-versus-sequential-actions",
+    "level": "advanced",
+    "tag": "concurrent vs sequential actions",
+    "sentenceA": "他一边听播客，一边跑步。",
+    "sentenceB": "他先听完播客，再跑步。",
+    "question": "What temporal contrast do the two sentences express?",
+    "choices": [
+      "A presents overlapping actions, while B presents listening first and running afterward.",
+      "Both sentences present the two actions as happening at the same time.",
+      "A presents listening first, while B presents running first.",
+      "Both sentences present running as completed before listening begins."
+    ],
+    "answerIndex": 0,
+    "explanation": "一边……一边…… typically presents two actions as occurring concurrently. 先……再…… presents an ordered sequence, and 听完 indicates that listening is completed before running takes place."
+  },
+  {
+    "id": "gradual-change-yuelaiyue",
+    "level": "advanced",
+    "tag": "Gradual change",
+    "sentenceA": "这间教室越来越安静了。",
+    "sentenceB": "这间教室比那间教室安静。",
+    "question": "Which sentence expresses an ongoing change in degree rather than an ordinary comparison?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both sentences",
+      "Neither sentence"
+    ],
+    "answerIndex": 0,
+    "explanation": "越来越 indicates that the classroom is becoming progressively quieter, whereas 比 compares the quietness of two classrooms and does not itself express an ongoing directional change."
+  },
+  {
+    "id": "immediate-sequence-yijiu",
+    "level": "advanced",
+    "tag": "immediate sequence",
+    "sentenceA": "他一听到铃声就起身离开了教室。",
+    "sentenceB": "他听到铃声以后起身离开了教室。",
+    "question": "Which sentence more strongly presents leaving the classroom as an immediate response to hearing the bell?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both express exactly the same degree of immediacy",
+      "Neither describes the order of the two events"
+    ],
+    "answerIndex": 0,
+    "explanation": "一……就…… highlights a tight, typically dependable succession: the second event follows as soon as the first occurs. 以后 only establishes that leaving happened after hearing the bell; it does not by itself specify how soon afterward."
+  },
+  {
+    "id": "except-versus-besides",
+    "level": "advanced",
+    "tag": "except vs besides",
+    "sentenceA": "除了小王以外，没人参加会议。",
+    "sentenceB": "除了小王以外，小李也参加了会议。",
+    "question": "What does sentence B most clearly imply?",
+    "choices": [
+      "Only Xiao Wang attended the meeting.",
+      "Xiao Wang and Xiao Li attended; others are not specified.",
+      "Xiao Li attended, but Xiao Wang did not.",
+      "Neither Xiao Wang nor Xiao Li attended."
+    ],
+    "answerIndex": 1,
+    "explanation": "With the negative predicate 没人, 除了小王以外 means that nobody other than Xiao Wang attended. In sentence B, the positive predicate together with 也 gives an additive reading: Xiao Li attended in addition to Xiao Wang. It does not specify whether anyone else attended."
+  },
+  {
+    "id": "accepted-premise-vs-cause",
+    "level": "advanced",
+    "tag": "accepted premise to conclusion",
+    "sentenceA": "既然会议已经推迟了，我们就不用现在出发了。",
+    "sentenceB": "因为会议已经推迟了，所以我们不用现在出发了。",
+    "question": "Which sentence more explicitly treats the postponement as an accepted premise from which a practical conclusion follows?",
+    "choices": [
+      "Sentence A, because 既然……就…… presents the premise as settled and leads to a conclusion.",
+      "Sentence B, because 因为……所以…… always marks an accepted premise rather than a cause.",
+      "Both sentences do exactly the same discourse work with no difference in emphasis.",
+      "Neither sentence presents the postponement as relevant to the decision to leave."
+    ],
+    "answerIndex": 0,
+    "explanation": "既然……就…… commonly frames a premise as already accepted or evident and then draws a resulting decision or conclusion. 因为……所以…… primarily explains a cause and its effect. This is a tendency in discourse framing, not an absolute grammatical rule."
+  },
+  {
+    "id": "you-you-paired-qualities",
+    "level": "advanced",
+    "tag": "又…又…: paired qualities",
+    "sentenceA": "他又沉着又细心，处理问题很稳妥。",
+    "sentenceB": "他又敲了敲门，又喊了几声，屋里还是没人回应。",
+    "question": "In which sentence does 又……又…… link two relatively stable qualities rather than two separate actions?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both sentences equally",
+      "Neither sentence"
+    ],
+    "answerIndex": 0,
+    "explanation": "In Sentence A, 又……又…… coordinates the qualities 沉着 and 细心. In Sentence B, it coordinates two distinct actions, 敲门 and 喊; their repetition and sequence come from the verb forms and context, not from an inherent requirement of the construction."
+  },
+  {
+    "id": "dui-vs-duiyu-topic-framing",
+    "level": "advanced",
+    "tag": "Conversational vs formal topic framing",
+    "sentenceA": "对这个安排，我有点不放心。",
+    "sentenceB": "对于这个安排，委员会将进行全面评估。",
+    "question": "Which sentence uses its preposition to frame a topic in a more formal, institutional way?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both equally",
+      "Neither sentence"
+    ],
+    "answerIndex": 1,
+    "explanation": "对 in Sentence A naturally introduces the speaker's conversational attitude or reaction. 对于 in Sentence B more explicitly frames the arrangement as a formal topic for institutional analysis. The two forms can overlap, but this contrast is a common tendency rather than an absolute rule."
+  },
+  {
+    "id": "xiang-vs-wang-directional-framing",
+    "level": "advanced",
+    "tag": "向 vs 往: directional framing",
+    "sentenceA": "小狗向主人跑去。",
+    "sentenceB": "小狗往院子里跑去。",
+    "question": "How is the endpoint framed differently in the two sentences?",
+    "choices": [
+      "Sentence A presents the owner as the target, while Sentence B presents the yard as the destination.",
+      "Sentence A describes a slower movement, while Sentence B describes a faster movement.",
+      "Sentence A indicates movement into an enclosed space, while Sentence B indicates movement toward a person.",
+      "Sentence A is hypothetical, while Sentence B reports a completed action."
+    ],
+    "answerIndex": 0,
+    "explanation": "向 often presents a person or another target as the direction of an action, while 往 commonly presents a place or directional destination in a motion phrase. This is a useful tendency rather than an absolute rule; the two can overlap in many contexts."
+  },
+  {
+    "id": "measure-word-for-ring",
+    "level": "advanced",
+    "tag": "Measure words for rings",
+    "sentenceA": "展柜里陈列着一枚古朴的银戒指。",
+    "sentenceB": "展柜里陈列着一只古朴的银戒指。",
+    "question": "Which sentence uses the conventional measure word for a ring in this context?",
+    "choices": [
+      "Sentence A: 枚",
+      "Sentence B: 只",
+      "Both are equally natural",
+      "Neither; use 件"
+    ],
+    "answerIndex": 0,
+    "explanation": "枚 is the conventional measure word for a ring, especially in a formal or descriptive context such as a display case. 只 is not the usual measure word for 戒指 here, although it has many other uses, including for animals and some individual objects."
+  },
+  {
+    "id": "qualified-certainty-weibi-buyiding",
+    "level": "expert",
+    "tag": "Qualified certainty",
+    "sentenceA": "他答应参加这次活动，未必会来。",
+    "sentenceB": "他答应参加这次活动，不一定会来。",
+    "question": "Which sentence more pointedly challenges the assumption that his promise guarantees his attendance?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both equally and explicitly",
+      "Neither sentence"
+    ],
+    "answerIndex": 0,
+    "explanation": "未必 can sound more formal and can more pointedly reject an expected inference: agreeing to attend does not guarantee that he will come. 不一定 is more neutral and primarily states that his attendance is not certain; in many contexts, however, the two expressions overlap."
+  },
+  {
+    "id": "qualified-disagreement-bujian-de",
+    "level": "expert",
+    "tag": "Qualified disagreement",
+    "sentenceA": "他临时没来，不见得是不重视这个项目。",
+    "sentenceB": "他临时没来，就是不重视这个项目。",
+    "question": "What stance does sentence A take toward the conclusion that his absence shows he does not value the project?",
+    "choices": [
+      "It treats the conclusion as proven.",
+      "It suggests the conclusion is not necessarily true and allows other explanations.",
+      "It asserts that he definitely values the project.",
+      "It refuses to comment on the reason for his absence."
+    ],
+    "answerIndex": 1,
+    "explanation": "不见得 indicates that the conclusion is not necessarily true and leaves open other explanations; it does not assert the opposite. By contrast, 就是 presents the conclusion as a direct, confident interpretation."
+  },
+  {
+    "id": "zai-shuo-added-reason-vs-later",
+    "level": "expert",
+    "tag": "再说: added reason vs later",
+    "sentenceA": "这份工作离家近，工资也稳定，再说，周末不用加班。",
+    "sentenceB": "这份工作离家近，工资也稳定；至于周末加班的安排，以后再说。",
+    "question": "How does 再说 function differently in the two sentences?",
+    "choices": [
+      "In A it adds another practical reason; in B it postpones discussing a matter until later.",
+      "In A it postpones a decision; in B it adds another practical reason.",
+      "In both sentences it means that the speaker is repeating an earlier statement.",
+      "In both sentences it introduces a contrast with the preceding clause."
+    ],
+    "answerIndex": 0,
+    "explanation": "In A, 再说 is an additive discourse marker meaning roughly “besides” or “moreover,” introducing another reason. In B, 以后再说 means that the topic will be discussed later; the time expression 以后 makes the postponement reading clear."
+  },
+  {
+    "id": "he-kuang-stronger-case",
+    "level": "expert",
+    "tag": "even stronger reason",
+    "sentenceA": "这项工作连有经验的人都觉得累，何况刚入行的新人。",
+    "sentenceB": "这项工作很累，所以刚入行的新人需要更多时间适应。",
+    "question": "Which sentence presents beginners as an even stronger supporting case after mentioning experienced workers?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both sentences equally",
+      "Neither sentence"
+    ],
+    "answerIndex": 0,
+    "explanation": "何况 introduces a stronger or more obvious case: if even experienced people find the work tiring, beginners are even more likely to do so. Sentence B gives a basic cause-and-effect explanation with 所以, without explicitly setting up a stronger comparison."
+  },
+  {
+    "id": "fan-zheng-unchanged-outcome",
+    "level": "expert",
+    "tag": "Unchanged outcome: 反正",
+    "sentenceA": "你来不来都行，反正我明早按原计划出发。",
+    "sentenceB": "你来不来都行，我明早按原计划出发。",
+    "question": "Which sentence most overtly frames whether the listener comes as irrelevant to the speaker’s fixed departure plan?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both equally",
+      "Neither sentence"
+    ],
+    "answerIndex": 0,
+    "explanation": "反正 in Sentence A explicitly presents the preceding alternatives as having the same consequence: the speaker will depart according to the original plan either way. Sentence B conveys the same practical compatibility, but without 反正 it less overtly frames the departure as an unchanged outcome."
+  },
+  {
+    "id": "final-consideration-bi-jing",
+    "level": "expert",
+    "tag": "Background justification vs sequencing",
+    "sentenceA": "这个决定不能只看眼前收益，毕竟前期已经投入了大量资源。",
+    "sentenceB": "这个决定不能只看眼前收益，最后还要考虑前期已经投入的大量资源。",
+    "question": "Which sentence more explicitly frames the prior investment as support for the preceding conclusion, rather than primarily locating it at the end of the considerations?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both sentences equally",
+      "Neither sentence"
+    ],
+    "answerIndex": 0,
+    "explanation": "毕竟 commonly presents the following fact as a particularly relevant or persuasive consideration supporting the preceding statement. 最后 primarily indicates the order in which a consideration is addressed; it can still signal relevance, but does not itself establish that the point is especially persuasive."
+  },
+  {
+    "id": "kanlai-vs-haoxiang-inference",
+    "level": "expert",
+    "tag": "Inference from evidence vs tentative impression",
+    "sentenceA": "他已经连续三天整理行李，还买好了机票，看来这次真的要出国了。",
+    "sentenceB": "他已经连续三天整理行李，还买好了机票，好像这次真的要出国了。",
+    "question": "Which sentence presents the speaker’s conclusion as more firmly supported by the stated evidence?",
+    "choices": [
+      "Sentence A, using 看来",
+      "Sentence B, using 好像",
+      "Both express equal certainty",
+      "Neither makes an inference"
+    ],
+    "answerIndex": 0,
+    "explanation": "看来 typically presents a conclusion the speaker draws from available evidence, whereas 好像 more often marks an appearance or tentative impression. 好像 can also be evidence-based, but in this contrast it usually conveys less commitment than 看来."
+  },
+  {
+    "id": "frustrated-contrary-circumstance-pianpian",
+    "level": "expert",
+    "tag": "frustrated contrary circumstance",
+    "sentenceA": "我明明提前半小时出门，还是没赶上那班车。",
+    "sentenceB": "我明明提前半小时出门，偏偏还是没赶上那班车。",
+    "question": "What additional nuance does 偏偏 add in sentence B?",
+    "choices": [
+      "The speaker may have intentionally missed the bus.",
+      "The missed bus is especially frustrating because it happened against expectation.",
+      "The speaker is correcting the time they left.",
+      "The speaker is uncertain whether the bus was missed."
+    ],
+    "answerIndex": 1,
+    "explanation": "偏偏 highlights an inconvenient or ironic outcome that runs contrary to expectation, often conveying frustration. It does not by itself imply that the speaker intentionally missed the bus."
+  },
+  {
+    "id": "shen-zhi-extreme-inclusion",
+    "level": "expert",
+    "tag": "even versus also",
+    "sentenceA": "这项规定影响了普通员工，甚至影响了公司高层。",
+    "sentenceB": "这项规定影响了普通员工，也影响了公司高层。",
+    "question": "Which sentence presents the company’s senior executives as an unexpectedly extreme group included among those affected?",
+    "choices": [
+      "Sentence A",
+      "Sentence B",
+      "Both sentences equally",
+      "Neither sentence"
+    ],
+    "answerIndex": 0,
+    "explanation": "甚至 presents the senior executives as an escalated or extreme case among the affected groups. 也 simply adds them as another affected group; although the addition may be noteworthy in context, 也 does not itself mark that escalation."
+  },
+  {
+    "id": "suowei-skeptical-labeling",
+    "level": "expert",
+    "tag": "所谓: skeptical labeling",
+    "sentenceA": "他所谓的“解决方案”只是把问题往后拖。",
+    "sentenceB": "他的“解决方案”只是把问题往后拖。",
+    "question": "What additional stance does sentence A convey about the term “solution” compared with sentence B?",
+    "choices": [
+      "The speaker questions whether it genuinely deserves that label.",
+      "The speaker confirms that it is an officially recognized solution.",
+      "The speaker says that the solution belongs to someone else.",
+      "The speaker is uncertain about whether the problem exists."
+    ],
+    "answerIndex": 0,
+    "explanation": "所谓的 before a noun often presents the noun as a label that the speaker views skeptically or does not fully endorse. Sentence B states the negative evaluation without necessarily challenging the label “solution”; this is a common tendency, not an absolute implication in every context."
   }
 ]

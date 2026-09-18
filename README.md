@@ -4,7 +4,7 @@ A fast, mobile-first Mandarin sentence matching game. Each round asks the player
 
 Choose **Beginner** for short, familiar sentences and pinyin; **Explorer** for longer everyday phrases; or **Challenge** for longer sentences with pinyin hidden. Correct answers earn 10, 15, and 20 XP respectively.
 
-**Nuance Lab** is a separate mode for comparing close grammar and vocabulary contrasts. Choose **Core** for clear, high-value distinctions, **Advanced** for context-dependent grammar details, or **Expert** for subtle implication and speaker stance. It begins with one hand-authored card per tier; its card data is in `data/nuance-cards.json`.
+**Nuance Lab** is a separate mode for comparing close grammar and vocabulary contrasts. Choose **Core** for clear, high-value distinctions, **Advanced** for context-dependent grammar details, or **Expert** for subtle implication and speaker stance. Its 59 current cards are in `data/nuance-cards.json`.
 
 ## Run it
 
